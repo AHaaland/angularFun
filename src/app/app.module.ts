@@ -8,7 +8,7 @@ import { AndrewCompComponent } from './andrew-comp/andrew-comp.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,AndrewCompComponent],
+  imports:      [ BrowserModule, FormsModule,AndrewCompComponent,AppRoutingModule],
   declarations: [ AppComponent, HelloComponent, AndrewCompComponent ],
   bootstrap:    [ AppComponent ]
 })
