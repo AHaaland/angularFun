@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { AndrewCompComponent } from '../andrew-comp/andrew-comp.component';
 import { HelloComponent } from '../hello.component';
+import { APP_BASE_HREF } from '@angular/common';
 
 const routes: Routes = [
   {path: 'andrew', component: AndrewCompComponent},
@@ -15,6 +16,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes)
   ],
   exports: [RouterModule],
-  declarations: []
+  declarations: [],
+  providers: [{provide: APP_BASE_HREF, useValue : '/' }]
 })
 export class AppRoutingModule { }
