@@ -16,3 +16,6 @@
 .mat-slider-vertical {
    height: 300px;
 }
+.tbSpacer{
+  flex: 1 1 auto;
+}

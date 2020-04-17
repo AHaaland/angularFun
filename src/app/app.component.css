@@ -1,3 +1,8 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 p {
   font-family: Lato;
+}
+
+.tbSpacer{
+  flex: 1 1 auto;
 }
